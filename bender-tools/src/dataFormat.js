@@ -8,3 +8,9 @@ function dateFormat(dtSte){
     const ss = padZero(dt.getSeconds())
     return `${y}-${m}-${d} ${hh}:${mm}:${ss}`
 }
+
+
+
+function padZero(n){
+    return n > 9?n:'0' + n
+}

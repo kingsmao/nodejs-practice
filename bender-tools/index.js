@@ -1,12 +1,8 @@
-
-
-function padZero(n){
-    return n > 9?n:'0' + n
-}
+const myDate = require('/src/dataFormat.js')
+const esc = require('/src/htmlEscape.js')
 
 module.exports = {
-    dateFormat,
-    htmlEscape,
-    htmlUnEscape
+    ...myDate,
+    ...esc
 }
 
