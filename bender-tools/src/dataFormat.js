@@ -1,7 +1,7 @@
-function dateFormat(dtSte){
+function dateFormat(dtSte) {
     const dt = new Date(dtSte)
     const y = dt.getFullYear()
-    const m = padZero(dt.getMonth() +1) 
+    const m = padZero(dt.getMonth() + 1)
     const d = padZero(dt.getDate())
     const hh = padZero(dt.getHours())
     const mm = padZero(dt.getMinutes())
@@ -11,6 +11,6 @@ function dateFormat(dtSte){
 
 
 
-function padZero(n){
-    return n > 9?n:'0' + n
+function padZero(n) {
+    return n > 9 ? n : '0' + n
 }
