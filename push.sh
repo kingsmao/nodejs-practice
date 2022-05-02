@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git commit -am "up"
-
 git add .
+
+git commit -am "up"
 
 git push
